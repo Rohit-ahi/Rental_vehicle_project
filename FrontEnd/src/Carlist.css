@@ -1,0 +1,310 @@
+
+/* 
+ .bodycar {
+
+    background: linear-gradient(to right, #002f4b, #dc4225);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+ }
+
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+   
+}
+
+.card-text {
+    color: #555;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+ */
+
+
+
+
+/*  
+.bodycar {
+    background: linear-gradient(to right, #003366, #ff6600);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    max-height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #666;
+    margin: 0;
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+ */
+
+
+
+
+/*  
+.bodycar {
+    background: linear-gradient(to right, #002f4b, #dc4225);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+     color: black;
+}
+.container1 {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    padding: 30px;  
+    color: #333; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+
+.card {
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    overflow: hidden; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+
+.card-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #dc4225; 
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+
+.card-text {
+    color: #666; 
+    margin: 0;
+}
+
+
+.btn-primary {
+    background-color: #dc4225; 
+    border-color: #dc4225;
+    color: #fff; 
+    padding: 10px 15px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.btn-primary:hover {
+    background-color: #a82c1b; 
+    border-color: #a82c1b;
+    transform: scale(1.05); 
+}
+ */
+
+
+
+ /* Body Background */
+.bodycar {
+    background: linear-gradient(to right, #002f4b, #dc4225);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Style */
+h2 {
+    color: #333; /* Darker color for better contrast */
+    font-size: 2rem; /* Larger font size for prominence */
+    font-weight: 600; /* Slightly bolder for emphasis */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 30px; /* Increase bottom margin for spacing */
+}
+
+/* Container Styling */
+.container1 {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    padding: 40px; /* Increase padding for more spacious feel */
+    color: #333; 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+    max-width: 1200px; /* Restrict maximum width for better layout */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 15px; /* Slightly larger border radius for a softer look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Softer shadow for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    overflow: hidden; 
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-8px); /* Increased hover effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Card Image Styling */
+.card-img-top {
+    border-radius: 15px 15px 0 0; /* Match border-radius of the card */
+    max-height: 220px; /* Slightly larger max height */
+    object-fit: cover;
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 1.5rem; 
+    font-weight: 700; /* Bolder font weight for title */
+    color: #dc4225; 
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+/* Card Text Styling */
+.card-text {
+    color: #555; /* Softer grey for description */
+    font-size: 1rem; /* Adjust font size for better readability */
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #dc4225; 
+    border-color: #dc4225;
+    color: #fff; 
+    padding: 12px 20px; /* Increased padding for a more prominent button */
+    font-weight: 600; /* Slightly bolder text */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.btn-primary:hover {
+    background-color: #a82c1b; 
+    border-color: #a82c1b;
+    transform: scale(1.05); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container1 {
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+    
+    .card-img-top {
+        max-height: 180px; /* Adjust max height for smaller screens */
+    }
+}

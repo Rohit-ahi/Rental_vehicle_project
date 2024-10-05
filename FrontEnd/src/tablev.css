@@ -1,0 +1,94 @@
+
+/*  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #000000;
+}
+
+img2 {
+    max-width: 100px;
+} 
+
+td {
+      color: #000000;
+} */
+
+
+
+.container-table {
+    background: linear-gradient(135deg, #f8f9fa, #e2e6ea); /* Soft gradient background */
+    padding: 30px; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure rounded corners are visible */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+th, td {
+    padding: 12px 15px; /* Improved padding for better spacing */
+    text-align: left;
+    vertical-align: middle; /* Center-align text vertically */
+}
+
+th {
+    background-color: #343a40; /* Dark background for the header */
+    color: #ffffff; /* White text for contrast */
+    text-transform: uppercase; /* Uppercase text for header */
+    font-weight: 600; /* Bold header text */
+    font-size: 0.875rem; /* Smaller font for a clean look */
+    letter-spacing: 0.05rem; /* Slight letter spacing */
+}
+
+td {
+    color: #495057; /* Dark grey text for better readability */
+    border-bottom: 1px solid #dee2e6; /* Subtle bottom border for separation */
+}
+
+tr:hover {
+    background-color: #f1f3f5; /* Light grey background on hover */
+}
+
+.img2 {
+    max-width: 100px; /* Maintain image size */
+    border-radius: 4px; /* Slightly rounded corners for images */
+    transition: transform 0.2s ease-in-out; /* Smooth transition effect */
+}
+
+.img2:hover {
+    transform: scale(1.05); /* Slight zoom on hover for images */
+}
+
+.btn-info {
+    background-color: #007bff; /* Branded blue button color */
+    border-color: #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.table-responsive {
+    overflow-x: auto; /* Ensure responsiveness */
+}
+
+.table td:last-child {
+    text-align: center; /* Center align the delete button */
+}

@@ -1,0 +1,68 @@
+
+
+.container-cards {
+    padding: 30px;
+    background: linear-gradient(135deg, #f8f9fa, #e2e6ea); /* Soft gradient background */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Rounded corners for top image */
+    border-top-right-radius: 10px;
+    max-height: 200px;
+    object-fit: cover; /* Ensure the image fits well */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem; /* Slightly larger title for emphasis */
+    font-weight: 600;
+    color: #333; /* Dark text for better readability */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555; /* Subtle color for text */
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.btn-danger {
+    background-color: #e40707; /* Custom red for delete button */
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.875rem;
+    border-radius: 5px; /* Rounded button corners */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #a30505; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.text-right {
+    text-align: right; /* Align the delete button to the right */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+}

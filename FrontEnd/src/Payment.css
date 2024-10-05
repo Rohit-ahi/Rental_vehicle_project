@@ -1,0 +1,22 @@
+
+/* Booking.css */
+
+/* Styling for the Proceed to Payment button */
+.btn-payment {
+    background: linear-gradient(135deg, #4CAF50, #2C6B2F); /* Gradient background */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Centered text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-payment:hover {
+    background: linear-gradient(135deg, #45a049, #1e5b1e); /* Darker gradient on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}

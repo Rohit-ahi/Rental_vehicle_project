@@ -1,0 +1,39 @@
+.booking-containe1z {
+    background-color: #000000;
+    padding: 2rem;
+  }
+  
+  .booking-card1z {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-header1z {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+
+  }
+  
+  .card-body1z {
+    padding: 15px;
+  }
+  
+  .card-img-top1z {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .badge-warning {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .btn-sm {
+    margin-top: 10px;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
